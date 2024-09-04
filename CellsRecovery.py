@@ -26,8 +26,8 @@ while True:
     V_CPD = int(input())
 
     # Calculating recovery based on the blood volume with CPD.
-    # If the blood volume with CPD >= 120, then V1 is 42, otherwise V1 is 22.
-    if V_CPD >= 120:
+    # If the blood volume without CPD >= 120, then V1 is 42, otherwise V1 is 22.
+    if V2 >= 120:
         V1 = 42
         recovery = round((WBC2*V1)*100/(WBC1*V2),2)
         results.append([WBC1, WBC2, V2, V_CPD, recovery, 'Recovery with division (%)'])
