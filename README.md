@@ -7,9 +7,7 @@
 - [Features](#features)
 - [Usage Examples](#usage-examples)
 - [Project Status](#project-status)
-- [Illustrations](#illustrations)
 - [Sources](#sources)
-- [Additional Information](#additional-information)
 
 ## Introduction
 This project calculates the cell recovery for preparations obtained from umbilical cord blood based on the data entered by the user. The tool is intended to assist laboratory technicians and researchers in evaluating the efficiency of their cell recovery processes by providing quick and accurate recovery percentages.
